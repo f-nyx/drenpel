@@ -1,0 +1,59 @@
+<!--
+/html/head/meta
+/html/head/title/My Express App
+/html/body/div/p/strong/Esto es un párrafo.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Express App</title>
+
+        <!-- 
+            Regla CSS:
+                1. un selector que selecciona los elementos HTML a los que se van a aplicar las propiedades.
+                2. una lista de propiedades a aplicar.
+        -->
+        <style>
+            div {
+                background: yellow;
+                margin: 10px;
+            }
+
+            strong {
+                color: orange;
+            }
+
+            .introduccion {
+                background: aquamarine;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #titulo-principal {
+                background: red;
+                padding: 10px;
+            }
+
+            #ballenita {
+                width: 200px;
+            }
+
+            #tercer-parrafo {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo-principal">Welcome to My Express App</h1>
+        <div id="contenido">
+            <p class="introduccion">
+                <strong>Esto es un párrafo.</strong>
+            </p>
+            <p class="introduccion">Esto es otro párrafo.</p>
+            <p id="tercer-parrafo" class="introduccion">Todavía introduciendo cosas.</p>
+        </div>
+        <img id="ballenita" src="/images1/../images2/ballena-franca.jpg">
+    </body>
+</html>
